@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* Centraliza horizontalmente */
+  justify-content: center;   /* Centraliza verticalmente */
+  height: 100vh;         /* Ocupa altura total da tela */
+  text-align: center;        /* Centraliza texto */
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
